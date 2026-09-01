@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mauricio Rivero CV</title>
+</head>
+<body>
+    <header>
+        <h1>Mauricio Jose Rivero</h1>
+        <h2>Ingeniero de Sistemas - Esp. Ingenieria del Software</h2>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="experiencia.html">Experiencia</a></li>
+                <li><a href="estudios.html">Estudios</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+        <img src="img/4.png" alt="banner con el nombre de contacto y su logo" width="100%">
+        <hr>
+    </header>
+    <main>
+        <form action="datos.js">
+            <table border="1">
+            <thead>
+                <tr>
+                    <th colspan="2">Formulario de contacto</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Nombre:</td>
+                    <td><input type="text" name="nombre" required></td>
+                </tr>
+                <tr>
+                    <td>Correo:</td>
+                    <td><input type="email" name="email" required></td>
+                </tr>
+                <tr>
+                    <td>Ciudad:</td>
+                    <td>
+                        <select name="ciudad" required>
+                            <option>Barranquilla</option>
+                            <option>Cali</option>
+                            <option>Cartagena</option>
+                            <option>Bogota</option>
+                            <option>Medellin</option>
+                            <option>Santa Marta</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Mensaje:</td>
+                    <td><textarea name="mensaje" rows="4" required></textarea></td>
+                </tr>
+                <tr>
+                    <td>Sexo:</td>
+                    <td>
+                        <input type="radio" id="masculino" name="sexo" value="masculino"><label>Masculino</label>
+                        <input type="radio" id="femenino" name="sexo" value="femenino"><label>Femenino</label>
+                        <input type="radio" id="otro" name="sexo" value="otro"><label>Otro</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Intereses:</td>
+                    <td>
+                        <input type="checkbox" id="videojuegos" name="intereses" value="videojuegos"><label>Videojuegos</label><br>
+                        <input type="checkbox" id="cocinar" name="intereses" value="cocinar"><label>Cocinar</label><br>
+                        <input type="checkbox" id="leer" name="intereses" value="leer"><label>Leer</label><br>
+                        <input type="checkbox" id="musica" name="intereses" value="musica"><label>Música</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td><button type="submit">Enviar</button></td>
+                </tr>
+            </tbody>
+        </table>
+        </form>
+    </main>
+    <footer>
+        <p>&copy; 2026 Mauricio Rivero. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
