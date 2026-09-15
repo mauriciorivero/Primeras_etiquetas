@@ -1,0 +1,120 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+header{
+    align-items: center;
+    background-color: #0071bc;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    height: 180px;
+    margin-top: 50px;
+    padding: 40px;
+    width: 90%
+}
+
+header > img{
+    border: solid 4px white;
+    border-radius: 15px;
+    height: 180px;
+    margin-left: 50px;
+    margin-top: 50px;
+    width: 180px;
+}
+
+header > nav > ul >li{
+    display: inline-block;
+    margin-left: 20px;
+}
+
+header > nav > ul >li > a{
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 28px;
+    font-weight: 900;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+main{
+    display: flex;
+    gap: 40px;
+    margin-top: 50px;
+    padding: 30px 100px;
+}
+
+.contenedor-aside{
+    background-color: #f15a24;
+    border-radius: 15px;
+    padding: 20px;
+    width: 400px;
+}
+
+.contenedor-section{
+    background-color: black;
+    border-radius: 15px;
+    padding: 20px;
+}
+
+.contenedor-section h2{
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 22px;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.contenedor-section h3{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 18px;
+    font-weight: 700;
+    text-decoration: none;
+    color: white;
+}
+
+.contenedor-section p{
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 15px;
+    font-weight: 300;
+    margin-bottom: 15px;
+    text-decoration: none;
+}
+
+.contenedor-section a{
+    color: orange;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 15px;
+    font-weight: 300;
+    margin-bottom: 15px;
+    text-decoration: none;
+}
+
+.contenedor-section ul > li{
+    color: white;
+    display: inline-block;
+    margin-bottom: 15px;
+}
+
+.contenedor-section ul > li > a{
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 15px;
+    font-weight: 300;
+    text-decoration: none;
+}
